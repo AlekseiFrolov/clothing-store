@@ -1,0 +1,226 @@
+.siglePageContent {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #F7F7F7;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 724px;
+    width: 597px;
+    overflow: hidden;
+    background-color: #F7F7F7;
+    margin-top: 11px;
+}
+
+.sladerButton {
+    position: absolute;
+
+    &__left,
+    &__right {
+        position: absolute;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 24px;
+        color: #760ed8;
+        line-height: 24px;
+    }
+
+    &__left {
+        left: -775px;
+    }
+
+    &__right {
+        left: 750px;
+    }
+}
+
+.productDescription {
+    top: 690px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    height: 730px;
+    width: 1141px;
+    margin: 0 auto;
+    outline: 1px solid #eaeaea;
+    z-index: 2;
+
+    &Top {
+        text-align: center;
+        width: 626px;
+        height: 400px;
+        padding-bottom: 43px;
+        border-bottom: 1px solid #eaeaea;
+        margin-top: 73px;
+        margin-bottom: 63px;
+
+        &__header {
+            font-family: 'Lato', sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+            color: #f16d7f;
+            text-align: center;
+            line-height: 24px;
+            padding-bottom: 34px;
+        }
+
+        &__title {
+            font-family: 'Lato', sans-serif;
+            font-size: 18px;
+            font-weight: 900;
+            color: #4d4d4d;
+            text-align: center;
+            line-height: 24px;
+            text-transform: uppercase;
+            padding-bottom: 67px;
+        }
+
+        &__details {
+            font-family: 'Lato', sans-serif;
+            font-size: 14px;
+            font-weight: 300;
+            color: #5e5e5e;
+            text-align: center;
+            line-height: 24px;
+            padding-bottom: 30px;
+        }
+
+        &__material {
+            display: flex;
+            justify-content: space-around;
+            padding-bottom: 37px;
+
+            & p {
+                font-family: 'Lato', sans-serif;
+                font-size: 14px;
+                font-weight: bold;
+                color: #b9b9b9;
+                text-align: center;
+                line-height: 24px;
+            }
+
+            & span {
+                font-family: 'Lato', sans-serif;
+                font-size: 14px;
+                font-weight: bold;
+                color: #2f2f2f;
+                text-align: center;
+                line-height: 24px
+            }
+        }
+
+        &__priсe {
+            font-family: 'Lato', sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+            color: #ef5b70;
+            text-align: center;
+            line-height: 24px;
+        }
+    }
+
+
+
+}
+
+.productDescriptionBottom {
+
+
+    &Choose {
+        display: flex;
+        justify-content: space-between;
+        width: 538px;
+
+
+
+        &__color {
+            display: flex;
+            align-items: center;
+        }
+
+
+        &1,
+        &2,
+        &3 p {
+            font-family: 'Lato', sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+            color: #2f2f2f;
+            text-align: left;
+            line-height: 24px;
+
+        }
+
+        &__color,
+        &__size,
+        &__quantity {
+            margin: 16px 0 28px 0;
+            height: 35px;
+            width: 144px;
+            background-color: #ffffff;
+            border: 1px solid #eaeaea;
+
+        }
+
+    }
+
+
+    &__button {
+        font-family: 'Lato', sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        color: #ef5b70;
+        height: 55px;
+        width: 537px;
+        border: 1px solid #ef5b70;
+        background-color: #ffffff;
+        transition: all 0.3s;
+    }
+
+    &__button:hover {
+        color: #ffffff;
+        background-color: #ef5b70;
+        transform: translate(0, 0) scale(1.2);
+    }
+}
+
+
+.siglePageAlso {
+    margin: 0 auto;
+    margin-top: 783px;
+
+    .singlePageAlso__title {
+        font-family: 'Lato', sans-serif;
+        font-size: 24px;
+        font-weight: 900;
+        color: #4d4d4d;
+        text-align: center;
+        line-height: 20px;
+        text-transform: uppercase;
+        margin-bottom: 72px;
+    }
+
+}
+
+.singlePageAlso__product {
+    display: flex;
+}
+
+.alsoProduct {
+    display: flex;
+    flex-direction: column;
+    height: 364px;
+    width: 263px;
+
+    & img {
+        background-color: #e9e9e9;
+    }
+
+}

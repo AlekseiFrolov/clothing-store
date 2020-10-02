@@ -1,0 +1,218 @@
+.checkoutContent {
+    width: 974px;
+    margin: 89px 396px 79px 230px;
+}
+
+.shippingAdress {
+    display: flex;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 79px;
+
+}
+
+.shippingAdressLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 394px;
+    width: 584px;
+
+    &__heading {
+        font-family: 'Lato', sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        color: #222222;
+        text-transform: uppercase;
+    }
+
+    &__button {
+        height: 50px;
+        width: 180px;
+        background-color: #ffffff;
+        border: 1px solid #eaeaea;
+        font-family: 'Lato', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        color: #4a4a4a;
+        text-transform: uppercase;
+        margin-left: 35px;
+
+        &:hover {
+            background: #f16d7f;
+            color: #ffffff;
+            cursor: pointer;
+        }
+    }
+}
+
+.guestTitle {
+    margin-left: 35px;
+
+    &__title {
+        font-family: 'Lato', sans-serif;
+        font-size: 13px;
+        color: #222222;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+
+    &__p {
+        font-family: 'Lato', sans-serif;
+        font-size: 13px;
+        color: #b3b2b2;
+        line-height: 20px
+    }
+}
+
+.radio {
+    margin-left: 35px;
+
+
+    & input {
+        margin: 0 14px 20px 0;
+
+    }
+
+    & p {
+        font-family: 'Lato', sans-serif;
+        font-size: 12px;
+        color: #222222;
+        text-transform: uppercase;
+        margin-right: 14px;
+    }
+}
+
+.registerTitle {
+    margin-left: 35px;
+
+    &__title {
+        font-family: 'Lato', sans-serif;
+        font-size: 13px;
+        color: #222222;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+
+    & p {
+        font-family: 'Lato', sans-serif;
+        font-size: 13px;
+        color: #b3b2b2;
+        line-height: 20px;
+    }
+}
+
+.shippingAdressLeftA {
+    margin-left: 35px;
+    display: flex;
+    flex-direction: column;
+
+    & i {
+        margin-right: 4px;
+    }
+
+    &__1 {
+        font-family: 'Lato', sans-serif;
+        font-size: 13px;
+        color: #b3b2b2;
+        line-height: 20px;
+    }
+
+    &__2 {
+        font-family: 'Lato', sans-serif;
+        font-size: 13px;
+        color: #b3b2b2;
+        line-height: 20px;
+    }
+}
+
+.shippingAdressRight {
+    height: 394px;
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.guestTitleRight {
+    margin-left: 0px;
+    padding-top: 42px;
+}
+
+.shippingAdressRightInput {
+
+    & input {
+        height: 45px;
+        width: 390px;
+        background-color: #ffffff;
+        border: 1px solid #eaeaea;
+
+
+    }
+}
+
+
+.register__email,
+.register__password {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    color: #222222;
+    line-height: 20px;
+    padding-bottom: 16px;
+
+    & span,
+    & span {
+        font-family: 'Lato';
+        font-size: 17px;
+        color: #ff0d0d;
+        line-height: 20px;
+    }
+}
+
+.register__password {
+    padding-top: 23px;
+}
+
+
+.RequiredFileds {
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    color: #ff0d0d;
+    line-height: 20px;
+}
+
+.shippingAdresslogIn {
+    display: flex;
+    align-items: center;
+
+    &__button {
+        height: 50px;
+        width: 180px;
+        background-color: #ffffff;
+        border: 1px solid #eaeaea;
+        font-family: 'Lato', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        color: #4a4a4a;
+        text-transform: uppercase;
+        margin-right: 32px;
+
+
+        &:hover {
+            background: #f16d7f;
+            color: #ffffff;
+            cursor: pointer;
+        }
+    }
+
+    &__forgot {
+        font-family: 'Lato', sans-serif;
+        font-size: 14px;
+        color: #222222;
+        line-height: 20px;
+    }
+}
+
+.billingInformation {
+    padding: 34px 0 23px 0;
+    border-bottom: 1px solid #cccccc;
+}
